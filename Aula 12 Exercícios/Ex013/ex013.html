@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Aula 12</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header><h1> Sei lá</h1></header>
+
+
+    <section>
+
+        <div>
+            Digite seu Nome: <input type="text" id="nome"><br>
+            Digite sua Data de Nascimento:<input type="number" id="anos" min="0"><br>
+            Digite seu Sexo: <input type="radio" name = "sex" id="sexM">
+                             <label for="mas">Masculino</label>
+                             <input type="radio" name = "sex" id="sexF">
+                             <label for="fem">Feminino</label>
+                             <input type="button" value="verificar" onclick="pessoa()">
+        </div>
+        
+        <div>
+            <img id="img" style="border-radius: 50%" width="250" height="250" src="avatar.jpg" alt="Foto do Horário">
+        </div>
+
+     <div id="res">
+
+     </div>
+    </section>
+
+
+    <footer><p>@Sandro Gomes Marques da Silva Júnior</p></footer>
+    <script src="script.js"></script>
+</body>
+</html>

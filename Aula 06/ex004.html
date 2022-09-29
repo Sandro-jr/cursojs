@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: blueviolet;
+            font: normal Arial 20pt;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var nome = window.prompt('Qual o seu nome?')
+        document.write(`Olá, ${nome}. Seu nome tem ${nome.length} letras</br>`)
+        document.write(`Seu nome em negrito é: <strong>${nome}</strong></br>`)
+        document.write(`Seu nome em maiúsculo é: ${nome.toUpperCase()}</br>`)
+        document.write(`Seu nome em minúsculo é: ${nome.toLowerCase()}</br>`)
+        // document.write é usando para escrever no documento ou em uma parte do documento
+        // VARIAVEL.toFixed() Coloca a quantidade de casas decimais que você quer que apareça
+        // VARIAVEL.toLocaleString( ‘pt-BR’,{style: ‘currecy’, currency: ‘BRL’} ) Coloca o R$ na frente do numero (pode trocar entre outras moedas)
+        // VARIAVEL.replace (‘’, ‘’) Troca o que está colocado na primeira aspes no que está colocado na segunda
+    </script>
+</body>
+</html>
